@@ -1,0 +1,93 @@
+%item1 {
+	background-color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:center;
+    padding: 5px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+	width: 20%;
+	}
+
+%item2 {
+	background-color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:center;
+    padding: 5px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+	width: 20%;
+	}
+
+%item3 {
+	background-color: #ffffff;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: normal;
+	text-align:center;
+    padding: 5px;
+    border: 1px solid black; 
+    border-collapse: collapse;
+	width: 15%;
+	}
+	
+#titlepage {
+	background-color: #e8e8e8;
+	font-family: arial;
+	font-size: 32px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center; 
+	}
+	
+.tablec1 {
+	@extend %item1;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+    border: 3px solid black; 
+	}
+
+.tablec2 {
+	@extend %item2;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+    border: 3px solid black; 
+	}
+
+.tablec3 {
+	@extend %item3;
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+    border: 3px solid black; 
+	}
+
+.element1 {
+	@extend %item1;
+	}
+
+.element2 {
+	@extend %item2;
+	}
+
+.element3 {
+	@extend %item3;
+	}
+
+#hvolver {
+	font-family: arial;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 45%;
+	text-align: center; 
+	}
+
+p table {
+	background-color: #e8e8e8;
+	margin: 22%;
+	}
